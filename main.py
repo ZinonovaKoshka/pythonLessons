@@ -16,3 +16,16 @@ if __name__ == '__main__':
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
 import tests.first_test
+
+import pytest
+
+
+def test_greater():
+   num = 100
+   assert num > 100
+
+
+def test_greater_equal():
+   num = 100
+   assert num >= 100
+

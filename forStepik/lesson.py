@@ -21,7 +21,29 @@
 # num2 = int(input())
 # print(num1 + num2)
 
-a = int(input())
-print(a, a*2, a*3, a*4, a*5, sep='---')
-print(a, '-', b, '=', a-b)
-print(a, '*', b, '=', a*b)
+# a = int(input())
+# print(a, a*2, a*3, a*4, a*5, sep='---')
+# print(a, '-', b, '=', a-b)
+# print(a, '*', b, '=', a*b)
+
+# Задачка с Таносом - сама неотвратимость!
+# a = int(input())
+# p = a//2
+# o = a - p * 2
+# print(p+o)
+
+a, b, c = int(input()), int(input()), input()
+
+if c == "+":
+    print(a + b)
+if c == "-":
+    print(a - b)
+if c == "*":
+    print(a * b)
+if c == "/":
+    if b == 0:
+        print("На ноль делить нельзя!")
+    elif a == 0:
+        print("0.0")
+    else:
+        print(a // b)

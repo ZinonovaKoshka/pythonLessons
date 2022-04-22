@@ -23,8 +23,9 @@ class TestFirst:
         assert 2+2 == 5, f"Ошибка при сложении"
 
     def test_3(self):
-        assert 2+2 == 5, "Ошибка при сложении"
         assert 2+2 == 4
+        assert 2+2 == 5, "Ошибка при сложении"
+
 
     def test_4(self):
         assert 1/0 == 1, f"Равенство не выполняется"
